@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo1{
+    position: absolute;
+    width: 244px;
+    height: 88px;
+    left: 12px;
+    top: 18px;
+    z-index: 1;
+}
+
+#menu{
+    position: relative;
+    width: 100%;
+}
+
+nav{
+    height: 25vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.paginas{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -110px;
+    left: 510px;
+    z-index: 1;
+    font-size: 20px;
+}
+
+.paginas:hover{
+    background-color: rgb(255, 234, 46);
+}
+
+footer{
+    position: relative;
+    top: 176em;
+    left: 0;
+    width: 100%;
+}
+
+#back{
+    width: 100%;
+    height: 45vh;
+    position: absolute;
+}
+
+#logo2{
+    position: absolute;
+    width: 230px;
+    height: 84px;
+    left: 50px;
+    top: 20px;
+}
+
+#lin1{
+    position: absolute;
+    width: 155px;
+    height: 28px;
+    left: 500px;
+    top: 30px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#lin2{
+    position: absolute;
+    width: 160px;
+    height: 28px;
+    left: 475px;
+    top: 115px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+#lin3{
+    position: absolute;
+    width: 160px;
+    height: 28px;
+    left: 470px;
+    top: 200px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+#lin4{
+    position: absolute;
+    width: 155px;
+    height: 28px;
+    left: 720px;
+    top: 30px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#lin5{
+    position: absolute;
+    width: 155px;
+    height: 28px;
+    left: 715px;
+    top: 115px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#lin6{
+    position: absolute;
+    width: 155px;
+    height: 28px;
+    left: 900px;
+    top: 30px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#insta{
+    position: absolute;
+    width: 33px;
+    height: 34px;
+    left: 920px;
+    top: 70px;
+}
+
+#face{
+    position: absolute;
+    width: 33px;
+    height: 34px;
+    left: 980px;
+    top: 68px;
+}
+
+#coment{
+    position: absolute;
+    width: 257px;
+    height: 30px;
+    left: 1100px;
+    top: 30px;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+#fcoment{
+    position: absolute;
+    width: 240px;
+    height: 145px;
+    left: 1100px;
+    top: 70px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+}
+
+#env{
+    position: absolute;
+    width: 80px;
+    height: 28px;
+    left: 1134px;
+    top: 230px;
+    background: #FFBD5F;
+    border: none;
+    border-radius: 1px;
+    color: white;
+    font-size: 16px;
+}
+
+#lim{
+    position: absolute;
+    width: 80px;
+    height: 28px;
+    left: 1230px;
+    top: 230px;
+    background: #FFBD5F;
+    border: none;
+    border-radius: 1px;
+    color: white;
+    font-size: 16px;
+}
+
+#hist{
+    position: relative;
+    width: 374px;
+    height: 169px;
+    font-size: 65px;
+    color: #EA6008;
+    left: 550px;
+    top: 110px;
+    font-family: 'Jaldi', sans-serif;
+    text-transform: uppercase;
+}
+
+#anos60{
+    position: absolute;
+    font-family: 'Jaldi', sans-serif;
+    width: 237px;
+    height: 68px;
+    font-size: 30px;
+    line-height: 68px;
+    color: #EA6008;
+    position: absolute;
+    left: 670px;
+    top: 220px;
+}
+
+.caixa1{
+    position: absolute;
+    width: 600px;
+    height: 230px;
+    right: 80px;
+    top: 280px;
+    background: rgba(228, 215, 95, 0.37);
+    font-size: 28px;
+    padding: 35px 60px;
+    text-align: center;
+}
+
+hr{
+    width: 100%;
+}
+
+#hr1{
+    position: relative;
+    top: 400px;
+}
+
+#img_60{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 150px;
+    top: 240px;
+}
+
+#img_60:hover{
+    box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.548);
+}
+
+#anos70{
+    position: absolute;
+    font-family: 'Jaldi', sans-serif;
+    width: 237px;
+    height: 68px;
+    font-size: 30px;
+    line-height: 68px;
+    color: #EA6008;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1000000;
+}
+
+#img_70{
+    position: absolute;
+    width: 340px;
+    height: 270px;
+    right: 150px;
+    top: 40em;
+}
+
+.caixa2{
+    position: absolute;
+    width: 600px;
+    height: 230px;
+    left: 80px;
+    top: 23.5em;
+    background: rgba(228, 215, 95, 0.37);
+    font-size: 28px;
+    padding: 55px 60px;
+    text-align: center;
+}
+
+#anos70{
+    position: absolute;
+    font-family: 'Jaldi', sans-serif;
+    width: 237px;
+    height: 68px;
+    font-size: 30px;
+    line-height: 68px;
+    color: #EA6008;
+    position: absolute;
+    left: 505px;
+    top: 20em;
+}
+
+#img_70:hover{
+    box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.548);
+}
+
+#hr2{
+    position: relative;
+    width: 100%;
+    top: 48.5em;
+}
+
+#anos89{
+    position: absolute;
+    font-family: 'Jaldi', sans-serif;
+    width: 237px;
+    height: 68px;
+    font-size: 30px;
+    line-height: 68px;
+    color: #EA6008;
+    position: absolute;
+    right: 445px;
+    top: 32em;
+}
+
+#img_89{
+    position: absolute;
+    width: 340px;
+    height: 320px;
+    left: 150px;
+    top: 62em;
+}
+
+#img_89:hover{
+    box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.548);
+}
+
+.caixa3{
+    position: absolute;
+    width: 600px;
+    height: 230px;
+    right: 80px;
+    top: 36em;
+    background: rgba(228, 215, 95, 0.37);
+    font-size: 28px;
+    padding: 55px 60px;
+    text-align: center;
+}
+
+#hr3{
+    position: relative;
+    width: 100%;
+    top: 74em;
+}
+
+.caixa4{
+    position: absolute;
+    width: 600px;
+    height: 230px;
+    left: 80px;
+    top: 51em;
+    background: rgba(228, 215, 95, 0.37);
+    font-size: 28px;
+    padding: 55px 60px;
+    text-align: center;
+}
+
+#anos95{
+    position: absolute;
+    font-family: 'Jaldi', sans-serif;
+    width: 237px;
+    height: 68px;
+    font-size: 30px;
+    line-height: 68px;
+    color: #EA6008;
+    position: absolute;
+    left: 625px;
+    top: 46em;
+}
+
+#img_95{
+    position: absolute;
+    width: 450px;
+    height: 320px;
+    right: 100px;
+    top: 86em;
+}
+
+#img_95:hover{
+    box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.548);
+}
+
+#iso{
+    position: absolute;
+    width: 400px;
+    height: 320px;
+    left: 150px;
+    top: 112em;
+}
+
+#anos96{
+    position: absolute;
+    font-family: 'Jaldi', sans-serif;
+    width: 237px;
+    height: 68px;
+    font-size: 30px;
+    line-height: 68px;
+    color: #EA6008;
+    position: absolute;
+    right: 445px;
+    top: 59em;
+}
+
+#hr4{
+    position: relative;
+    top: 97em;
+}
+
+#img_96:hover{
+    box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.548);
+}
+
+.caixa5{
+    position: absolute;
+    width: 600px;
+    height: 230px;
+    right: 80px;
+    top: 65em;
+    background: rgba(228, 215, 95, 0.37);
+    font-size: 28px;
+    padding: 55px 60px;
+    text-align: center;
+}
+
+#hr5{
+    position: relative;
+    top: 123em;
+}
+
+#anos2003{
+    position: absolute;
+    font-family: 'Jaldi', sans-serif;
+    width: 237px;
+    height: 68px;
+    font-size: 30px;
+    color: #EA6008;
+    position: absolute;
+    left: 620px;
+    top: 73em;
+}
+
+#img_2003{
+    position: absolute;
+    width: 450px;
+    height: 320px;
+    right: 100px;
+    top: 137em;
+}
+
+.caixa6{
+    position: absolute;
+    width: 600px;
+    height: 230px;
+    left: 80px;
+    top: 80em;
+    background: rgba(228, 215, 95, 0.37);
+    font-size: 28px;
+    padding: 55px 60px;
+    text-align: center;
+}
+
+#hr6{
+    position: relative;
+    top: 149em;
+}
+
+#img_2003:hover{
+    box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.548);
+}
+
+#img_2013{
+    position: absolute;
+    width: 460px;
+    height: 320px;
+    left: 100px;
+    top: 164em;
+}
+
+.caixa7{
+    position: absolute;
+    width: 600px;
+    height: 230px;
+    right: 80px;
+    top: 94.5em;
+    background: rgba(228, 215, 95, 0.37);
+    font-size: 28px;
+    padding: 40px 60px;
+    text-align: center;
+}
+
+#img_2013:hover{
+    box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.548);
+}
+
+#anos2013{
+    position: absolute;
+    font-family: 'Jaldi', sans-serif;
+    width: 237px;
+    height: 68px;
+    font-size: 30px;
+    color: #EA6008;
+    position: absolute;
+    right: 440px;
+    top: 86.5em;
+}

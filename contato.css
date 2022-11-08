@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Jaldi', sans-serif;
+    text-align: center;
+    font-size: 95px;
+    color: #F05E21;
+}
+
+p{
+    text-align: center;
+    font-size: 27px
+}
+
+header img{
+    padding: 36px;
+}
+
+body {
+    background-color: #FEEED2;
+}
+
+#btn {
+    background-color: #F15E22;
+    width: 205px;
+    height: 39px;
+    color: white;
+    border: solid 1px #FAA61A;
+    margin-top: 20px;
+    margin-left: 460px;
+}
+
+#btn::-ms-value {
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-image: url(assets/IMAGE.png);
+    height: 220px;
+}
+
+form {
+    width: 659px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+form div {
+    display: inline-block;
+    padding-top: 30px;
+    color: #F05E21;
+}
+
+select {
+    width: 659px;
+    border: solid 1px #F05E21;  
+    height: 25px;
+}
+
+form div label {
+    font-size: 0.75rem;
+    padding-bottom: 20px;
+}
+
+form div input {
+    height: 25px;
+    width: 250px;
+    border: solid 1px #F05E21;
+}
+
+#espaço {
+    padding-left: 143px;
+}
+
+form div input::placeholder {
+    color: #F05E21;
+}
+
+#nasci{
+    padding-left: 146px;    
+}
+
+#ftxt{
+    width: 659px;
+    height: 100px;
+}
+
+form div textarea::placeholder{
+    opacity: 50%;
+    padding: 10px;
+}
+
+textarea{
+    border: solid 1px #F05E21;
+}
+
+#fundo{
+    display: inline-block;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    z-index: -10;
+    height: 1168px;
+    background-color: #FEE3B6;
+    margin-left: 140px;
+}
+
+#fundo img{
+    padding: 518px 0 0 144px;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+*{
+    margin: 10;
+    padding: 0;
+}
+
+#cadastro {
+    margin-left: 350px;
+    padding-top: 10px;
+    height: 80vh;
+    width: 50%;
+    background-color: #F15E22;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    color: #FFFF;
+
+}
+
+.caixas {
+    border-radius: 5px;
+    height: 5vh;
+    width: 40vw;
+}
+
+#cadas {
+    right: 580px;
+    position: absolute;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 0;
+    border-radius: 5px;
+    transition: 0.5s;
+    width: 150px;
+    height: 40px;
+}
+
+#cadas:hover {
+    background-color: #630303;
+    color: #FFFFFF;
+}
